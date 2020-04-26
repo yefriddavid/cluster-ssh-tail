@@ -1,0 +1,30 @@
+tail-file: /var/log/app/output.log
+config-file: /home/username/.ssh/config
+slient: false
+clusters:
+  api-dev:
+    - name: api.test.a
+      alias: api.a
+      enable: true
+    - name: api.test.c
+      alias: api.c
+      enable: false
+  api-prod:
+    - name: api.prod.a
+      alias: api.a
+      enable: true
+    - name: api.prod.c
+      alias: api.c
+      enable: true
+  app-prod:
+    - name: app.prod.a
+      alias: app.a
+      enable: true
+    - name: app.prod.c
+      alias: app.c
+      enable: true
+  server-name:
+    - name: server-ssh-config-name
+      tail-file: /var/log/syslog
+      enable: true
+

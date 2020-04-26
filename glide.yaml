@@ -1,0 +1,9 @@
+package: github.com/yefriddavid/cluster-ssh-tail
+ignore:
+  - crypto/ed25519
+import:
+- package: github.com/kevinburke/ssh_config
+- package: github.com/spf13/viper
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh

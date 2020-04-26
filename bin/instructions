@@ -1,0 +1,6 @@
+./bin/traze-tail-linux\*.go -conf=bin/traze-prod-servers.toml 
+
+./traze-tail-linux\*.go -conf=traze-prod-servers.toml 
+
+./traze-tail-linux\*.go -conf traze-prod-servers.toml 
+

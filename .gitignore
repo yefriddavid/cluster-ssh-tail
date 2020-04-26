@@ -1,0 +1,9 @@
+.idea
+assets
+.vscode
+vendor
+dist
+dist/*
+vendor
+.editorconfig
+config.yml

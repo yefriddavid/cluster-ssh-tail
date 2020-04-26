@@ -1,0 +1,66 @@
+hash: 676c1c7ce7a49d7bb82b0fb648b38f873cea0542512dbdbb4734697d77dde1c2
+updated: 2020-04-26T11:55:02.210703008-03:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: 7f4cf4dd2b522a984eaca51d1ccee54101d3414a
+- name: github.com/hashicorp/hcl
+  version: 569ae818ccb3cf7a7192e329771f8f940feecbba
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/kevinburke/ssh_config
+  version: 6cfae18c12b8934b1afba3ce8159476fdef666ba
+- name: github.com/magiconair/properties
+  version: a586bb8b7deaae2a0eb4c6c8b63a539425628137
+- name: github.com/mitchellh/mapstructure
+  version: ba04b217da920f27cfc994a979894602990935ad
+- name: github.com/pelletier/go-toml
+  version: d1e0fc37ce141a2a968bde16e03f6d85f0cb9d14
+- name: github.com/spf13/afero
+  version: c17d29330031aab335093fc53ac2060eb6d5701d
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 1ffadf551085444af981432dd0f6d1160c11ec64
+- name: github.com/spf13/jwalterweatherman
+  version: 94f6ae3ed3bceceafa716478c5fbf8d29ca601a1
+- name: github.com/spf13/pflag
+  version: 2e9d26c8c37aae03e3f9d4e90b7116f5accb7cab
+- name: github.com/spf13/viper
+  version: 59b19175035095196a623aac8d0f5c83481f3d77
+- name: github.com/subosito/gotenv
+  version: de67a6614a4de71ad5e380b6946e56ab957d58c5
+- name: golang.org/x/crypto
+  version: 1b76d66859c6111b3d5c3ea6600ea44dc188bf12
+  subpackages:
+  - blowfish
+  - chacha20
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - internal/subtle
+  - poly1305
+  - ssh
+  - ssh/internal/bcrypt_pbkdf
+- name: golang.org/x/sys
+  version: 5766fd39f98ddd8d769ad4aedcee557dd28de90f
+  subpackages:
+  - cpu
+  - unix
+- name: golang.org/x/text
+  version: 3d0f7978add91030e5e8976ff65ccdd828286cba
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/ini.v1
+  version: 39bc4ddcb8b9d0100f7a040816380ccda878b94a
+- name: gopkg.in/yaml.v2
+  version: f221b8435cfb71e54062f6c6e99e9ade30b124d5
+testImports: []
